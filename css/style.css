@@ -262,13 +262,13 @@ input:-webkit-autofill {
 /*------------------------ 2 Home ------------------------*/		
 
 .home{
-    background:url(images/blog-2.jpg) bottom center;
+    background:url(images/cover.jpeg) bottom center;
     width: 100%;
     display: table;
 }
 
 .diag .home{
-    background: url(images/blog-2.jpg) 50% 50% fixed;
+    background: url(images/cover.jpeg) 50% 50% fixed;
     background-size: cover;
 }
 
