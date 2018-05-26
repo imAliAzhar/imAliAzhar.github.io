@@ -53,7 +53,13 @@ $(window).load( function() {
 if ($('.isotope_items').length) {
 
      var $container = $('.isotope_items');
-     $container.isotope();
+     $container.isotope(
+         {
+            // masonry: {
+            //     isFitWidth: true
+            //     }
+         }
+     );
 
     $('.portfolio_filter ul li').on("click", function(){
         $(".portfolio_filter ul li").removeClass("select-cat");
