@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slides</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            min-height: 100vh;
+            padding: 4rem 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 3rem;
+            color: #fff;
+        }
+        .slides-list {
+            list-style: none;
+        }
+        .slides-list li {
+            margin-bottom: 1rem;
+        }
+        .slides-list a {
+            display: block;
+            padding: 1.5rem;
+            background: #1a1a1a;
+            border-radius: 8px;
+            color: #e5e5e5;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 1px solid #2a2a2a;
+        }
+        .slides-list a:hover {
+            background: #252525;
+            border-color: #3a3a3a;
+            transform: translateX(4px);
+        }
+        .slide-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .slide-description {
+            font-size: 0.875rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Slides</h1>
+        <ul class="slides-list">
+            <li>
+                <a href="/slides/road-to-expo/">
+                    <div class="slide-title">Road to Expo</div>
+                    <div class="slide-description">A journey through React Native and Expo development</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

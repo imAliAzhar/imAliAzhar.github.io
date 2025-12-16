@@ -1,0 +1,1 @@
+import{d as s,f as t,o,g as a,j as n}from"./modules/vue-a2BRDZyK.js";import{J as c,_ as r}from"./index-DF5CdNj4.js";const _={class:"slidev-layout subsection"},d={class:"subsection-content"},i=s({__name:"subsection",setup(l){return c(),(e,u)=>(o(),t("div",_,[a("div",d,[n(e.$slots,"default",{},void 0,!0)])]))}}),f=r(i,[["__scopeId","data-v-940283e5"]]);export{f as I};

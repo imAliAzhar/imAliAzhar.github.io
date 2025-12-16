@@ -1,0 +1,1 @@
+import{d as t,f as o,o as s,g as a,j as c}from"./modules/vue-a2BRDZyK.js";import{J as n,_ as r}from"./index-DF5CdNj4.js";const _={class:"slidev-layout section"},d={class:"section-content"},i=t({__name:"section",setup(l){return n(),(e,p)=>(s(),o("div",_,[a("div",d,[c(e.$slots,"default",{},void 0,!0)])]))}}),f=r(i,[["__scopeId","data-v-3c130119"]]);export{f as I};
